@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.teamssd.event.Event"/>
+<fullyQualifiedTypeName name="com.teamssd.event.ContestWin"/>
+<fullyQualifiedTypeName name="com.teamssd.event.Contribution"/>
+<fullyQualifiedTypeName name="com.teamssd.event.Embezzlement"/>
+<fullyQualifiedTypeName name="com.teamssd.event.NobelPrize"/>
+<fullyQualifiedTypeName name="com.teamssd.event.SupportFund"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.Game"/>
+<fullyQualifiedTypeName name="com.teamssd.Resource.Professor"/>
+<fullyQualifiedTypeName name="com.teamssd.event.FameToStudent"/>
+<fullyQualifiedTypeName name="com.teamssd.event.Debt"/>
+<fullyQualifiedTypeName name="com.teamssd.event.ProfessorFame"/>
+<fullyQualifiedTypeName name="com.teamssd.event.ProfessorResearch"/>
+<fullyQualifiedTypeName name="com.teamssd.GameContext"/>
+</qualifiedTypeNameHistroy>

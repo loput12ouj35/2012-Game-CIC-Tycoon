@@ -1,0 +1,13 @@
+package com.teamssd.building.room;
+
+import com.teamssd.Animations;
+import com.teamssd.Finance.FINANCE_TYPE;
+
+public class Class1x1 implements Buildable {
+	@Override
+	public Room build(int id)
+	{
+		return new Room(FINANCE_TYPE.CLASS, 1, id, Animations.class1x1());
+	}
+
+}

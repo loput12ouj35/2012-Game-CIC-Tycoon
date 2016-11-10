@@ -1,0 +1,63 @@
+package com.teamssd.event;
+
+import com.teamssd.GameContext;
+import com.teamssd.Resource.Professor;
+import com.teamssd.ui.TimedMessageBox;
+
+public class ProfessorResearch implements Event {
+	
+	final static double rate = 2.0;
+	
+	private static int needProgress;
+	private static int progress;
+	
+	public ProfessorResearch() {
+		needProgress = 100;
+		progress = 0;
+	}
+	
+	public static int getNeedProgress() {
+		return needProgress;
+	}
+
+	public static int getProgress() {
+		return progress;
+	}
+	
+	public static void research(int r) {
+	    progress += r;
+	}
+
+	@Override
+	public boolean check() {
+		return true;
+	}
+
+	@Override
+	public double getProb() {
+		return 1.0;
+	}
+
+	@Override
+	public void run() {
+		Professor[] profs = GameContext.r.professors();
+		int addFame = 100;
+		
+		for (Professor p : profs) {
+			if(p.hired){
+				progress += p.p.getResearch_speed();			
+			}
+		}
+		
+		if(progress >= needProgress){
+			progress -= needProgress;
+			addFame = (addFame < 1000) ? 333 : GameContext.r.fame/3;
+			GameContext.r.fame += addFame;
+			GameContext.newMessage(new TimedMessageBox("A professor made an amazing research result!\n" 
+			+ "Fame +" + addFame));
+			needProgress *= rate;
+		}
+		
+	}
+
+}

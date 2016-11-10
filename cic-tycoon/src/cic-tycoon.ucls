@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.3" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="false" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="com.teamssd.event.EventList" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/event/EventList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="148" x="134" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.teamssd.building.room.Lounge" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/building/room/Lounge.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="125" x="4669" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.teamssd.event.NobelPrize" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/event/NobelPrize.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="106" x="2726" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="com.teamssd.Renderable" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/Renderable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="145" x="1709" y="1009"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="com.teamssd.ui.Build" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/ui/Build.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="441" width="272" x="987" y="1009"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.teamssd.Finance" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/Finance.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="639" width="260" x="1300" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.teamssd.Timer" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/Timer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="125" x="322" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.teamssd.GameContext" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/GameContext.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="585" width="249" x="1829" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="9" language="java" name="com.teamssd.ui.SubMenu.BUTTON" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/ui/SubMenu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="119" x="1375" y="1665"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="10" language="java" name="com.teamssd.AnimatedSprite" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/AnimatedSprite.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="154" x="1167" y="582"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.teamssd.building.room.EV" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/building/room/EV.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="125" x="4834" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.teamssd.professor_profile" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/professor_profile.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="247" x="487" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.teamssd.CICTycoon" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/CICTycoon.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="168" x="774" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.teamssd.event.Embezzlement" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/event/Embezzlement.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="107" x="3166" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.teamssd.event.LoungeEvent" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/event/LoungeEvent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="108" x="3018" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.teamssd.event.Research" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/event/Research.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="106" x="2872" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="17" language="java" name="com.teamssd.Finance.FINANCE_TYPE" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/Finance.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="156" x="971" y="582"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="18" language="java" name="com.teamssd.ui.InfiniteMessageBox" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/ui/InfiniteMessageBox.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="156" x="2118" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.teamssd.event.Bankrupcy" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/event/Bankrupcy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="106" x="3313" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.teamssd.building.room.Office" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/building/room/Office.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="125" x="4999" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.teamssd.event.ProfessorFame" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/event/ProfessorFame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="112" x="3459" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.teamssd.ui.TimedMessageBox" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/ui/TimedMessageBox.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="153" x="2314" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="23" language="java" name="com.teamssd.ui.SubMenu" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/ui/SubMenu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="165" x="1375" y="1490"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="24" language="java" name="com.teamssd.event.Event" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/event/Event.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="106" x="3611" y="582"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="25" language="java" name="com.teamssd.event.Contribution" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/event/Contribution.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="106" x="3611" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.teamssd.ui.Finance" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/ui/Finance.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="165" x="1299" y="1009"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.teamssd.FinanceUnit" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/FinanceUnit.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="179" x="2507" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="com.teamssd.building.room.Class2x1" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/building/room/Class2x1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="125" x="5164" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="com.teamssd.event.Debt" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/event/Debt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="106" x="3757" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="com.teamssd.Animations" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/Animations.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="278" x="982" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="com.teamssd.scene.GameOver" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/scene/GameOver.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="184" x="2201" y="1009"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="32" language="java" name="com.teamssd.ui.Build.State" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/ui/Build.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="119" x="987" y="1490"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <interface id="33" language="java" name="com.teamssd.ui.MessageBox" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/ui/MessageBox.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="107" x="2314" y="582"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="34" language="java" name="com.teamssd.Resource" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/Resource.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="162" x="5989" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="com.teamssd.event.FameToStudent" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/event/FameToStudent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="112" x="3903" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="com.teamssd.building.room.Class1x1" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/building/room/Class1x1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="125" x="5329" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="com.teamssd.ui.Employee" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/ui/Employee.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="333" width="165" x="1504" y="1009"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="com.teamssd.building.room.Class1x2" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/building/room/Class1x2.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="125" x="5494" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="com.teamssd.building.Building" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/building/Building.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="315" width="150" x="1361" y="582"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="com.teamssd.building.room.Room" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/building/room/Room.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="240" x="2461" y="582"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="41" language="java" name="com.teamssd.building.room.Buildable" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/building/room/Buildable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="125" x="5247" y="582"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <enumeration id="42" language="java" name="com.teamssd.GameContext.CURSOR" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/GameContext.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="119" x="1926" y="582"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="43" language="java" name="com.teamssd.building.Floor" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/building/Floor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="150" x="1736" y="582"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="com.teamssd.building.room.Stair" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/building/room/Stair.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="125" x="5659" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="com.teamssd.Resource.Professor" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/Resource.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="166" x="5985" y="582"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="46" language="java" name="com.teamssd.ui.Menu.State" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/ui/Menu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="119" x="2042" y="1009"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="47" language="java" name="com.teamssd.ui.Menu" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/ui/Menu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="387" width="189" x="2085" y="582"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="com.teamssd.event.ContestWin" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/event/ContestWin.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="106" x="4055" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="49" language="java" name="com.teamssd.scene.Scene" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/scene/Scene.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="103" x="2201" y="1490"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="50" language="java" name="com.teamssd.building.room.Lab" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/building/room/Lab.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="125" x="5824" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="51" language="java" name="com.teamssd.professor_list" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/professor_list.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="189" x="1600" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="52" language="java" name="com.teamssd.event.ProfessorResearch" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/event/ProfessorResearch.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="136" x="4201" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="53" language="java" name="com.teamssd.building.BaseFloor" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/building/BaseFloor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="108" x="1894" y="1009"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="54" language="java" name="com.teamssd.event.SupportFund" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/event/SupportFund.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="106" x="4377" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="55" language="java" name="com.teamssd.scene.GameScene" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/scene/GameScene.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="184" x="2425" y="1009"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="56" language="java" name="com.teamssd.ui.StatusBar" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/ui/StatusBar.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="145" x="1551" y="582"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="57" language="java" name="com.teamssd.event.Tuition" project="cic-tycoon" 
+    file="/cic-tycoon/src/com/teamssd/event/Tuition.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="106" x="4523" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="58">    
+    <end type="SOURCE" refId="56"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="59">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <realization id="60">    
+    <end type="SOURCE" refId="48"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <realization id="61">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="41"/>  
+  </realization>  
+  <nesting id="62">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="46"/>  
+  </nesting>  
+  <nesting id="63">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="17"/>  
+  </nesting>  
+  <realization id="64">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="49"/>  
+  </realization>  
+  <realization id="65">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <nesting id="66">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="45"/>  
+  </nesting>  
+  <realization id="67">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <realization id="68">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="23"/>  
+  </realization>  
+  <realization id="69">    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="41"/>  
+  </realization>  
+  <realization id="70">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <generalization id="71">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <generalization id="72">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="73">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="43"/>  
+  </generalization>  
+  <realization id="74">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <realization id="75">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <nesting id="76">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="9"/>  
+  </nesting>  
+  <realization id="77">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="49"/>  
+  </realization>  
+  <realization id="78">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="41"/>  
+  </realization>  
+  <realization id="79">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="23"/>  
+  </realization>  
+  <realization id="80">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <realization id="81">    
+    <end type="SOURCE" refId="57"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <realization id="82">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <nesting id="83">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="42"/>  
+  </nesting>  
+  <realization id="84">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="41"/>  
+  </realization>  
+  <realization id="85">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <realization id="86">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="41"/>  
+  </realization>  
+  <realization id="87">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="33"/>  
+  </realization>  
+  <realization id="88">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <realization id="89">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="23"/>  
+  </realization>  
+  <realization id="90">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="41"/>  
+  </realization>  
+  <realization id="91">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <realization id="92">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <generalization id="93">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <realization id="94">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <nesting id="95">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="32"/>  
+  </nesting>  
+  <realization id="96">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <realization id="97">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <realization id="98">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="41"/>  
+  </realization>  
+  <realization id="99">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="41"/>  
+  </realization>  
+  <realization id="100">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="33"/>  
+  </realization>  
+  <realization id="101">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="false" multiplicity="false"/>
+</class-diagram>
